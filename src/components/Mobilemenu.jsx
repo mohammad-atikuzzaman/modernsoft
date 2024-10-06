@@ -16,14 +16,14 @@ const Mobilemenu = () => {
                 <button onClick={()=> setDisplayMobileMenu(false)}  > <RxCrossCircled className="mx-auto text-3xl" /></button>
                 <hr className="my-3" />
                 <ul>
-                    <li> <Link href="/" className={`${path ==="/"&& "font-semibold underline"}`}>Home</Link> </li>
-                    <li> <Link href="/about" className={`${path ==="/about"&& "font-bold underline"}`}>About</Link> </li>
-                    <li> <Link href="/services">Services</Link> </li>
-                    <li> <Link href="/">Projects</Link> </li>
-                    <li> <Link href="/">Contacts</Link> </li>
-                    <li> <Link href="/">Blog</Link> </li>
-                    <li> <Link href="/"> <FaFacebook className="mt-1 text-white text-lg mx-auto" /></Link> </li>
-                    <li> <Link href="/"> <FaLinkedin className="mt-1 text-white text-lg mx-auto" /></Link> </li>
+                    <li> <Link href="/" >Home</Link> </li>
+                    <li> <Link href="#about">About</Link> </li>
+                    <li> <Link href="#services">Services</Link> </li>
+                    <li> <Link href="#projects">Projects</Link> </li>
+                    <li> <Link href="#contacts">Contacts</Link> </li>
+                    <li> <Link href="#blog">Blog</Link> </li>
+                    <li> <Link href="https://www.facebook.com"> <FaFacebook className="mt-1 text-white text-lg mx-auto" /></Link> </li>
+                    <li> <Link href="https://www.linkedin.com"> <FaLinkedin className="mt-1 text-white text-lg mx-auto" /></Link> </li>
                 </ul>
             </menu>
             }

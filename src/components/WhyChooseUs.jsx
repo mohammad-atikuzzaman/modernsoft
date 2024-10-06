@@ -6,8 +6,8 @@ const WhyChooseUs = () => {
       <h2 className="text-4xl text-center">
         Why <span className="text-blue-400 font-semibold">Choose Us?</span>
       </h2>
-      <main className="flex mt-12">
-        <div className="space-y-16 w-[60%]">
+      <main className="flex flex-col-reverse md:flex-row mt-12">
+        <div className="space-y-16 md:w-[60%]">
           <div className="flex items-center gap-4">
             <img src="/icons/plan.png" alt="modernsoft" className="w-6 h-6"/>
             <div className="space-y-4">
@@ -75,7 +75,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-[40%]">
+        <div className="md:w-[40%]">
           <img src="/image/presentation.png" alt="modernsoft" />
         </div>
       </main>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero mt-12">
+    <section className="hero mt-12" id="home">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src="/image/heroimage.png"
@@ -36,7 +36,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

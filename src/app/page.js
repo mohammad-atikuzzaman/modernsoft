@@ -8,7 +8,7 @@ function HomePage() {
       <h2 className="text-center font-semibold text-4xl ">
         Frontend Technologies
       </h2>
-      <div className="flex gap-4 mt-8">
+      <div className="grid md:grid-cols-2 gap-4 mt-8">
         <div className="shadow-md rounded-md p-8 text-center hover:scale-105 transition-all">
           <RiReactjsFill className="text-blue-500 text-4xl mx-auto" />
           <h4 className="font-semibold mt-4 mb-4">React Js</h4>

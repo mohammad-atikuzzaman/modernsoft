@@ -44,8 +44,8 @@ export default function RootLayout({ children }) {
             <h2 className="text-center text-4xl font-medium">
               Technology We Used
             </h2>
-            <menu className="flex items-center justify-center mt-6">
-              <nav className="space-x-6">
+            <menu className="flex items-center justify-center mt-6 mx-auto">
+              <nav className="flex flex-wrap justify-center gap-4">
                 <Link className="btn bg-blue-500 text-white text-xl" href="/">Frontend</Link>
                 <Link className="btn bg-blue-500 text-white text-xl" href="/backend">Backend</Link>
                 <Link className="btn bg-blue-500 text-white text-xl" href="/database">DataBase</Link>

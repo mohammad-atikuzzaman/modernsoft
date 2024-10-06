@@ -20,18 +20,17 @@ const ServicesSlider = () => {
 
   const settings = {
     className: "center",
+    centerPadding: "60px",
     centerMode: true,
     infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 4,
     speed: 500,
+    slidesToShow: 5,
     autoplaySpeed: 2000,
-    // autoplay: true,
     responsive: [
       {
         breakpoint: 1280,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 5,
           slidesToScroll: 3,
           infinite: true,
           dots: true,
@@ -40,9 +39,9 @@ const ServicesSlider = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          initialSlide: 3,
         },
       },
       {
@@ -55,39 +54,53 @@ const ServicesSlider = () => {
     ],
   };
   return (
-    <div className="slider-container">
+    <div className="slider-container overflow-hidden">
       <Slider
         ref={(slider) => {
           sliderRef = slider;
         }}
         {...settings}>
-        <div>
-          <img src="/icons/web.png" alt="" className="w-20 h-20" />
-          <h3 className="">1</h3>
+        <div className="text-center  ">
+          <div className="space-y-6 border rounded-md p-4 mx-6 border-purple-900">
+            <img src="/icons/web.png" alt="" className="w-20 h-20 mx-auto" />
+            <h3 className="">Web Development</h3>
+          </div>
         </div>
-        <div>
-          <img src="/icons/mobile.png" alt="" className="w-20 h-20" />
-          <h3 className="">2</h3>
+        <div className="text-center space-y-6 ">
+          <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
+            <img src="/icons/mobile.png" alt="" className="w-20 h-20 mx-auto" />
+            <h3 className="">Mobile Application</h3>
+          </div>
         </div>
-        <div>
-          <img src="/icons/software.png" alt="" className="w-20 h-20" />
-          <h3 className="text-center">2</h3>
+        <div className="text-center space-y-6 ">
+          <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
+            <img
+              src="/icons/software.png"
+              alt=""
+              className="w-20 h-20 mx-auto"
+            />
+            <h3 className="text-center">Software Dev</h3>
+          </div>
         </div>
-        <div>
-          <img src="/icons/uiux.png" alt="" className="w-20 h-20" />
-          <h3 className="">2</h3>
+        <div className="text-center space-y-6 ">
+          <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
+            <img src="/icons/uiux.png" alt="" className="w-20 h-20 mx-auto" />
+            <h3 className="">UI/UX Design</h3>
+          </div>
         </div>
-        <div>
-          <img src="/icons/social.png" alt="" className="w-20 h-20" />
-          <h3 className="">2</h3>
+        <div className="text-center space-y-6 ">
+          <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
+            <img src="/icons/social.png" alt="" className="w-20 h-20 mx-auto" />
+            <h3 className="">Digital Marketing</h3>
+          </div>
         </div>
       </Slider>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center" }} className="mt-8">
         <button className="button" onClick={previous}>
-          <FaArrowAltCircleLeft  className="text-2xl text-[#5C1AF8]"/>
+          <FaArrowAltCircleLeft className="text-2xl text-[#5C1AF8]" />
         </button>
         <button className="button ml-4" onClick={next}>
-          <FaArrowAltCircleRight  className="text-2xl text-[#5C1AF8]"/>
+          <FaArrowAltCircleRight className="text-2xl text-[#5C1AF8]" />
         </button>
       </div>
     </div>

@@ -7,7 +7,7 @@ const Glance = () => {
         <span className="text-blue-400">We are</span> at a glance
       </h2>
       <main className="flex items-center justify-center mt-6">
-        <div className="flex gap-6">
+        <div className="flex justify-center flex-wrap gap-6">
           <div className="border-2 border-[#5C1AF8] rounded-md text-center p-6">
             <img src="/icons/users.png" alt="" />
             <h2 className="font-semibold text-5xl">10+</h2>

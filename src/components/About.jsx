@@ -2,11 +2,11 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="flex gap-4 mt-24">
-      <div className="w-[40%]">
+    <section className="flex flex-col md:flex-row gap-4 mt-24" id="about">
+      <div className="md:w-[40%]">
         <img src="/icons/webfull.png" alt="" className="w-[70%] mx-auto"/>
       </div>
-      <div className="w-[60%]">
+      <div className="md:w-[60%]">
         <div className="">
           <h2  className="text-4xl">Who We Are</h2>
           <p className="text-[#00000096]">
