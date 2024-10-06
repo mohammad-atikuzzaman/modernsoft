@@ -2,20 +2,38 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero mt-12">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-          className="max-w-sm rounded-lg shadow-2xl"
+          src="/image/heroimage.png"
+          alt="modernsoft"
+          className=" rounded-lg "
         />
-        <div>
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
-          <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+        <div className="">
+          <h1 className="text-4xl font-medium">
+            Welcome to
+            <span className="text-blue-400"> ModernSoft Innovations</span>
+          </h1>
+
+          <h1 className="text-4xl font-medium mt-20">
+            Your Partner for
+            <br />
+            <div className="mt-6">
+              <span className="font-bold text-[#3F4DE8]">Customized</span>
+              <span className="font-bold text-blue-400">
+                <span className="text-blue-500"> Digital</span> Solution.
+              </span>
+            </div>
+          </h1>
+          <p className="py-6 text-[#000000A3]">
+            At ModernSoft Innovations, we provide tailored digital solutions to
+            help businesses thrive in today’s competitive digital landscape. Our
+            expert team is dedicated to delivering high-quality software
+            development services, customized to meet your unique business needs.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn bg-blue-600 text-white mt-6">
+            Get in Touch
+          </button>
         </div>
       </div>
     </div>

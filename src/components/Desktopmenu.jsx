@@ -39,7 +39,7 @@ const Desktopmenu = () => {
           </Link>
         </li>
       </ul>
-      <button className="bg-blue-600 text-white font-semibold p-1 rounded-md">
+      <button className="bg-blue-600 text-white font-semibold btn">
         Get in Touch
       </button>
     </menu>
