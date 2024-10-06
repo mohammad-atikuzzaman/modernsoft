@@ -23,7 +23,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Chatvibe",
+  title: "Modern Soft",
   description: "create with next js",
 };
 

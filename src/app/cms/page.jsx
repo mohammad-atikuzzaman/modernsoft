@@ -1,11 +1,37 @@
-import React from 'react';
+import {SiShopify, SiWix, SiWordpress } from "react-icons/si";
 
-const page = () => {
+function Cms() {
   return (
-    <div>
-      cms
+    <div className="mt-12">
+      <h2 className="text-center font-semibold text-4xl ">
+        CMS Technologies
+      </h2>
+      <div className="flex gap-6 mt-8">
+        <div className="shadow-md rounded-md p-8 text-center hover:scale-105 transition-all w-[33%]">
+          <SiWordpress className="text-blue-500 text-4xl mx-auto" />
+          <h4 className="font-semibold mt-4 mb-4">Wordpress</h4>
+          <p className="text-[#00000078]">
+            A database for building web apps and services.
+          </p>
+        </div>
+        <div className="shadow-md rounded-md p-8 text-center hover:scale-105 transition-all w-[33%]">
+          <SiShopify className=" text-4xl mx-auto text-green-600" />
+          <h4 className="font-semibold  mt-4 mb-4">Shopify</h4>
+          <p className="text-[#00000078]">
+            A source-available, cross-platform, document-oriented database
+            program.
+          </p>
+        </div>
+        <div className="shadow-md rounded-md p-8 text-center hover:scale-105 transition-all w-[33%]">
+          <SiWix className="text-4xl text-blue-900 mx-auto" />
+          <h4 className="font-semibold mb-4 mt-4">Wix</h4>
+          <p className="text-[#00000078]">
+            The world's most advanced open source relational database.
+          </p>
+        </div>
+      </div>
     </div>
   );
-};
+}
 
-export default page;
+export default Cms;
