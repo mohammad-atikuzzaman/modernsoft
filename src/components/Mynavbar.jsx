@@ -5,7 +5,7 @@ import Desktopmenu from './Desktopmenu';
 
 const Mynavbar = () => {
     return (
-        <nav className="flex justify-between items-center py-4 shadow-md relative px-2">
+        <nav className="flex justify-between items-center py-4 shadow-md relative px-2 rounded-xl">
             <div className="rounded-full overflow-hidden">
                 <Image src="/logo/modernsoft.png" alt="modernsoft" height={56} width={56} />
             </div>

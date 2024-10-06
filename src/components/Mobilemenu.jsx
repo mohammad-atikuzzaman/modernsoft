@@ -12,7 +12,7 @@ const Mobilemenu = () => {
     return (
         <div className="block md:hidden">
             <button onClick={()=>setDisplayMobileMenu(true)}><RiMenu3Fill className="text-2xl font-bold text-blue-600" /></button>
-           {displayMobileMenu && <menu className="absolute top-0 right-0 bg-blue-600 min-h-screen pt-4 px-4 text-lg font-semibold text-white text-center">
+           {displayMobileMenu && <menu className="absolute top-0 right-0 bg-blue-600 min-h-screen pt-4 px-4 text-lg font-semibold text-white text-center z-50">
                 <button onClick={()=> setDisplayMobileMenu(false)}  > <RxCrossCircled className="mx-auto text-3xl" /></button>
                 <hr className="my-3" />
                 <ul>
