@@ -1,13 +1,16 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
   return (
-    <section className="hero mt-12" id="home">
+    <section className="hero pt-12 bg-blue-100 rounded-md" id="home">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img
+        <Image
           src="/image/heroimage.png"
           alt="modernsoft"
-          className=" rounded-lg "
+          height={500}
+          width={500}
+          className=" rounded-lg"
         />
         <div className="">
           <h1 className="text-4xl font-medium">

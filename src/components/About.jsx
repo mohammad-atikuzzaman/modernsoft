@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import React from 'react';
 
 const About = () => {
   return (
     <section className="flex flex-col md:flex-row gap-4 mt-24" id="about">
       <div className="md:w-[40%]">
-        <img src="/icons/webfull.png" alt="" className="w-[70%] mx-auto"/>
+        <Image src="/icons/webfull.png" alt="modernsoft" height={500} width={500} className="w-[70%] mx-auto"/>
       </div>
       <div className="md:w-[60%]">
         <div className="">

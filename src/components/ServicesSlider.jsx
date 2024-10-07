@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, Component } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -8,6 +8,8 @@ import "../styles/index.css";
 
 import Slider from "react-slick";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import Image from "next/image";
+
 
 const ServicesSlider = () => {
   let sliderRef = useRef(null);
@@ -20,10 +22,11 @@ const ServicesSlider = () => {
 
   const settings = {
     className: "center",
-    centerPadding: "60px",
     centerMode: true,
+    centerPadding: "60px",
+    focusOnSelect: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 5,
     autoplaySpeed: 2000,
     responsive: [
@@ -33,7 +36,6 @@ const ServicesSlider = () => {
           slidesToShow: 5,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
         },
       },
       {
@@ -62,45 +64,45 @@ const ServicesSlider = () => {
         {...settings}>
         <div className="text-center  ">
           <div className="space-y-6 border rounded-md p-4 mx-6 border-purple-900">
-            <img src="/icons/web.png" alt="" className="w-20 h-20 mx-auto" />
-            <h3 className="">Web Development</h3>
+            <Image src="/icons/web.png" alt="modernsoft" height={20} width={20} className="w-20 h-20 mx-auto" />
+            <h3 className="font-semibold">Web Development</h3>
           </div>
         </div>
         <div className="text-center space-y-6 ">
           <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
-            <img src="/icons/mobile.png" alt="" className="w-20 h-20 mx-auto" />
-            <h3 className="">Mobile Application</h3>
+            <Image src="/icons/mobile.png" alt="modernsoft" height={20} width={20} className="w-20 h-20 mx-auto" />
+            <h3 className="font-semibold">Mobile Application</h3>
           </div>
         </div>
         <div className="text-center space-y-6 ">
           <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
-            <img
+            <Image
               src="/icons/software.png"
-              alt=""
+              alt="modernsoft" height={20} width={20}
               className="w-20 h-20 mx-auto"
             />
-            <h3 className="text-center">Software Dev</h3>
+            <h3 className="font-semibold">Software Dev</h3>
           </div>
         </div>
         <div className="text-center space-y-6 ">
           <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
-            <img src="/icons/uiux.png" alt="" className="w-20 h-20 mx-auto" />
-            <h3 className="">UI/UX Design</h3>
+            <Image src="/icons/uiux.png" alt="modernsoft" height={20} width={20} className="w-20 h-20 mx-auto" />
+            <h3 className="font-semibold">UI/UX Design</h3>
           </div>
         </div>
         <div className="text-center space-y-6 ">
           <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
-            <img src="/icons/social.png" alt="" className="w-20 h-20 mx-auto" />
-            <h3 className="">Digital Marketing</h3>
+            <Image src="/icons/social.png" alt="modernsoft" height={20} width={20} className="w-20 h-20 mx-auto" />
+            <h3 className="font-semibold">Digital Marketing</h3>
           </div>
         </div>
       </Slider>
-      <div style={{ textAlign: "center" }} className="mt-8">
+      <div style={{ textAlign: "center" }} className="mt-8 space-x-12">
         <button className="button" onClick={previous}>
-          <FaArrowAltCircleLeft className="text-2xl text-[#5C1AF8]" />
+          <FaArrowAltCircleLeft className="text-4xl text-[#5C1AF8]" />
         </button>
         <button className="button ml-4" onClick={next}>
-          <FaArrowAltCircleRight className="text-2xl text-[#5C1AF8]" />
+          <FaArrowAltCircleRight className="text-4xl text-[#5C1AF8]" />
         </button>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const WhyChooseUs = () => {
@@ -9,7 +10,7 @@ const WhyChooseUs = () => {
       <main className="flex flex-col-reverse md:flex-row mt-12">
         <div className="space-y-16 md:w-[60%]">
           <div className="flex items-center gap-4">
-            <img src="/icons/plan.png" alt="modernsoft" className="w-6 h-6"/>
+            <Image src="/icons/plan.png" alt="modernsoft" width={200} height={200} className="w-6 h-6"/>
             <div className="space-y-4">
               <h2 className="font-medium text-2xl">
                 Tailored Digital Solutions
@@ -22,7 +23,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <img src="/icons/team.png" alt="modernsoft"  className="w-6 h-6"/>
+            <Image src="/icons/team.png" alt="modernsoft" width={200} height={200}  className="w-6 h-6"/>
             <div className="space-y-4">
               <h2 className="font-medium text-2xl">
                 Experienced Software Development Team
@@ -36,7 +37,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <img src="/icons/reocord.png" alt="modernsoft"  className="w-6 h-6"/>
+            <Image src="/icons/reocord.png" alt="modernsoft" width={200} height={200}  className="w-6 h-6"/>
             <div className="space-y-4">
               <h2 className="font-medium text-2xl">
                 Proven Track Record of Success
@@ -49,7 +50,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <img src="/icons/pricing.png" alt="modernsoft"  className="w-6 h-6"/>
+            <Image src="/icons/pricing.png" alt="modernsoft" width={200} height={200}  className="w-6 h-6"/>
             <div className="space-y-4">
               <h2 className="font-medium text-2xl">
                 Affordable and Scalable Solutions
@@ -62,7 +63,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <img src="/icons/support.png" alt="modernsoft"  className="w-6 h-6"/>
+            <Image src="/icons/support.png" alt="modernsoft" width={200} height={200}  className="w-6 h-6"/>
             <div className="space-y-4">
               <h2 className="font-medium text-2xl">
                 Comprehensive End-to-End Support
@@ -75,8 +76,10 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
+
+
         <div className="md:w-[40%]">
-          <img src="/image/presentation.png" alt="modernsoft" />
+          <Image src="/image/presentation.png" alt="modernsoft" height={500} width={500} />
         </div>
       </main>
     </section>

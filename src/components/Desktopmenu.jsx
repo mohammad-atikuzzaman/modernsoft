@@ -5,12 +5,12 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 const Desktopmenu = () => {
-
+  const path = usePathname()
   return (
     <menu className="hidden md:flex gap-16 items-center">
       <ul className="flex gap-4">
         <li>
-          <Link href="/" >Home</Link>
+          <Link href="/" className={`${path==="/" && "font-semibold text-blue-500"}`}>Home</Link>
         </li>
         <li>
           <Link href="#about" >About</Link>

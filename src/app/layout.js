@@ -42,15 +42,33 @@ export default function RootLayout({ children }) {
           <WhyChooseUs />
           <section className="mt-28">
             <h2 className="text-center text-4xl font-medium">
-              Technology We Used
+               Technology<span className="text-blue-400"> We Used</span>
             </h2>
             <menu className="flex items-center justify-center mt-6 mx-auto">
               <nav className="flex flex-wrap justify-center gap-4">
-                <Link className="btn bg-blue-500 text-white text-xl" href="/">Frontend</Link>
-                <Link className="btn bg-blue-500 text-white text-xl" href="/backend">Backend</Link>
-                <Link className="btn bg-blue-500 text-white text-xl" href="/database">DataBase</Link>
-                <Link className="btn bg-blue-500 text-white text-xl" href="/cms">CMS</Link>
-                <Link className="btn bg-blue-500 text-white text-xl" href="/devops">DevOps</Link>
+                <Link className="btn bg-blue-500 text-white text-xl" href="/">
+                  Frontend
+                </Link>
+                <Link
+                  className="btn bg-blue-500 text-white text-xl"
+                  href="/backend">
+                  Backend
+                </Link>
+                <Link
+                  className="btn bg-blue-500 text-white text-xl"
+                  href="/database">
+                  DataBase
+                </Link>
+                <Link
+                  className="btn bg-blue-500 text-white text-xl"
+                  href="/cms">
+                  CMS
+                </Link>
+                <Link
+                  className="btn bg-blue-500 text-white text-xl"
+                  href="/devops">
+                  DevOps
+                </Link>
               </nav>
             </menu>
             {children}

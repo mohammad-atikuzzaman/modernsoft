@@ -9,7 +9,7 @@ const Services = () => {
           <span className="text-blue-400 underline">Services</span>
           <span className="font-medium underline"> we Offer</span>
         </h2>
-        <p className="mt-4 mb-8">
+        <p className="mt-12 mb-16">
           We can provide the digital presence of your requirements with great
           design, quality development & aftersale service.
         </p>
