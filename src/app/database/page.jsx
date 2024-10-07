@@ -26,7 +26,7 @@ function Database() {
           <SiPostgresql className="text-4xl text-blue-900 mx-auto" />
           <h4 className="font-semibold mb-4 mt-4">PostgreSQL</h4>
           <p className="text-[#00000078]">
-            The world's most advanced open source relational database.
+            The worlds most advanced open source relational database.
           </p>
         </div>
       </div>

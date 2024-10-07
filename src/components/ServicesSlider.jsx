@@ -64,13 +64,13 @@ const ServicesSlider = () => {
         {...settings}>
         <div className="text-center  ">
           <div className="space-y-6 border rounded-md p-4 mx-6 border-purple-900">
-            <Image src="/icons/web.png" alt="modernsoft" height={20} width={20} className="w-20 h-20 mx-auto" />
+            <Image src="/icons/web.png" alt="modernsoft" height={100} width={100} className="w-20 h-20 mx-auto" />
             <h3 className="font-semibold">Web Development</h3>
           </div>
         </div>
         <div className="text-center space-y-6 ">
           <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
-            <Image src="/icons/mobile.png" alt="modernsoft" height={20} width={20} className="w-20 h-20 mx-auto" />
+            <Image src="/icons/mobile.png" alt="modernsoft" height={100} width={100} className="w-20 h-20 mx-auto" />
             <h3 className="font-semibold">Mobile Application</h3>
           </div>
         </div>
@@ -78,7 +78,7 @@ const ServicesSlider = () => {
           <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
             <Image
               src="/icons/software.png"
-              alt="modernsoft" height={20} width={20}
+              alt="modernsoft" height={100} width={100}
               className="w-20 h-20 mx-auto"
             />
             <h3 className="font-semibold">Software Dev</h3>
@@ -86,13 +86,13 @@ const ServicesSlider = () => {
         </div>
         <div className="text-center space-y-6 ">
           <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
-            <Image src="/icons/uiux.png" alt="modernsoft" height={20} width={20} className="w-20 h-20 mx-auto" />
+            <Image src="/icons/uiux.png" alt="modernsoft" height={100} width={100} className="w-20 h-20 mx-auto" />
             <h3 className="font-semibold">UI/UX Design</h3>
           </div>
         </div>
         <div className="text-center space-y-6 ">
           <div className="space-y-6 border rounded-md mx-6 p-4 border-purple-900">
-            <Image src="/icons/social.png" alt="modernsoft" height={20} width={20} className="w-20 h-20 mx-auto" />
+            <Image src="/icons/social.png" alt="modernsoft" height={100} width={100} className="w-20 h-20 mx-auto" />
             <h3 className="font-semibold">Digital Marketing</h3>
           </div>
         </div>
