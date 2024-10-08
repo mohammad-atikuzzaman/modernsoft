@@ -8,9 +8,9 @@ const Desktopmenu = () => {
   const path = usePathname()
   return (
     <menu className="hidden md:flex gap-16 items-center">
-      <ul className="flex gap-4">
+      <ul className="flex items-center gap-4 text-gray-500 font-semibold">
         <li>
-          <Link href="/" className={`${path==="/" && "font-semibold text-blue-500"}`}>Home</Link>
+          <Link href="/" className={`${path==="/" && "font-semibold text-base text-blue-500"}`}>Home</Link>
         </li>
         <li>
           <Link href="#about" >About</Link>

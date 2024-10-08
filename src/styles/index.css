@@ -1,3 +1,16 @@
 button.slick-arrow {
   display: none;
 }
+
+.parent {
+  position: relative;
+}
+
+.child {
+  display: none;
+  width: 100%;
+}
+
+.parent:hover .child {
+  display: flex;
+}

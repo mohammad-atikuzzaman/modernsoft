@@ -10,6 +10,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Link from "next/link";
+import Projects from "@/components/Projects";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
         <div className="max-w-screen-xl mx-auto">
           <Hero />
           <Services />
+          <Projects/>
           <About />
           <Glance />
           <WhyChooseUs />
