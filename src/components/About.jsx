@@ -5,11 +5,11 @@ const About = () => {
   return (
     <section className="flex flex-col md:flex-row gap-4 mt-24" id="about">
       <div className="md:w-[40%]">
-        <Image src="/icons/webfull.png" alt="modernsoft" height={500} width={500} className="w-[70%] mx-auto"/>
+        <Image src="/icons/webfull.png" alt="modernsoft" height={500} width={500} className="w-[70%] mx-auto animatebounce"/>
       </div>
       <div className="md:w-[60%]">
-        <div className="">
-          <h2  className="text-4xl">Who We Are</h2>
+        <div className="space-y-4">
+          <h2  className="text-4xl font-semibold text-blue-600">Who We Are</h2>
           <p className="text-[#00000096]">
             ModernSoft Innovations is a leading software development company
             offering innovative and custom software solutions for businesses and
@@ -19,8 +19,8 @@ const About = () => {
             long-term success.
           </p>
         </div>
-        <div className="mt-6">
-          <h2 className="text-4xl">What We Do</h2>
+        <div className="mt-8 space-y-4">
+          <h2 className="text-4xl font-semibold text-blue-600">What We Do</h2>
           <p className="text-[#00000096]">
             We specialize in Software Development, Software Testing, and Web &
             Mobile Application Development. Using the latest technologies and

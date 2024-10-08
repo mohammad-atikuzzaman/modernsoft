@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header className="max-w-screen-xl mx-auto">
+        <header className="max-w-screen-xl mx-auto ">
           <Mynavbar />
         </header>
         <div className="max-w-screen-xl mx-auto">
@@ -43,8 +43,8 @@ export default function RootLayout({ children }) {
           <Glance />
           <WhyChooseUs />
           <section className="mt-28">
-            <h2 className="text-center text-4xl font-medium">
-               Technology<span className="text-blue-400"> We Used</span>
+            <h2 className="text-center text-4xl font-semibold">
+               Technology<span className="text-blue-600"> We Used</span>
             </h2>
             <menu className="flex items-center justify-center mt-6 mx-auto">
               <nav className="flex flex-wrap justify-center gap-4">

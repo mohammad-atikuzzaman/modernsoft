@@ -5,7 +5,7 @@ const Glance = () => {
   return (
     <section className="mt-24">
       <h2 className="font-semibold text-4xl text-center">
-        <span className="text-blue-400">We are</span> at a glance
+        <span className="text-blue-600">We are</span> at a glance
       </h2>
       <main className="flex items-center justify-center mt-6">
         <div className="flex justify-center flex-wrap gap-6">
