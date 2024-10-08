@@ -42,11 +42,6 @@ const Projects = () => {
           title={"Project"}
           url={"https://www.googel.com"}
         />
-        <Project
-          img={"/image/projectimg.png"}
-          title={"Project"}
-          url={"https://www.googel.com"}
-        />
       </div>
     </section>
   );
