@@ -3,7 +3,7 @@ import React from 'react';
 
 const Glance = () => {
   return (
-    <section className="mt-24">
+    <section className="mt-24 bg-blue-100 py-12 rounded-md">
       <h2 className="font-semibold text-4xl text-center">
         <span className="text-blue-600">We are</span> at a glance
       </h2>

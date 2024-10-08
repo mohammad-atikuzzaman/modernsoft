@@ -4,7 +4,7 @@ import ServiceSwiperSlider from './ServiceSwiperSlider';
 
 const Services = () => {
   return (
-    <section className="mt-24" id="services">
+    <section className="mt-24  bg-blue-100 py-12 rounded-md" id="services">
       <div className="text-center">
         <h2 className="text-4xl font-semibold underline">
           <span className="text-blue-400 underline">Services</span>

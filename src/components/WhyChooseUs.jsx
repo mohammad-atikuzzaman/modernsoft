@@ -3,7 +3,7 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="mt-24">
+    <section className="mt-24  bg-blue-100 px-4 py-12 rounded-md">
       <h2 className="text-4xl font-semibold text-center">
         Why <span className="text-blue-600 ">Choose Us?</span>
       </h2>
