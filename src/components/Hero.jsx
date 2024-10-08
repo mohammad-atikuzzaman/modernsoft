@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import "../styles/index.css"
+import TypewriterText from "./TypewriterText";
 
 const Hero = () => {
   return (
@@ -10,23 +12,27 @@ const Hero = () => {
           alt="modernsoft"
           height={500}
           width={500}
-          className=" rounded-lg"
+          className=" rounded-lg animatebounce"
         />
         <div className="">
-          <h1 className="text-4xl font-medium">
+          {/* <h1 className="text-4xl font-medium">
             Welcome to
             <span className="text-blue-400"> ModernSoft Innovations</span>
-          </h1>
+          </h1> */}
+          <TypewriterText words={"ModernSoft Innovations"}/>
 
-          <h1 className="text-4xl font-medium mt-20">
+          {/* <h1 className="text-4xl font-medium mt-20" >
             Your Partner for
             <br />
-            <div className="mt-6">
+            <span className="mt-6 inline-block">
               <span className="font-bold text-[#3F4DE8]">Customized</span>
               <span className="font-bold text-blue-400">
                 <span className="text-blue-500"> Digital</span> Solution.
               </span>
-            </div>
+            </span>
+          </h1> */}
+          <h1 className="glitch mt-8">
+            Your partner for Customized Digital Solution
           </h1>
           <p className="py-6 text-[#000000A3]">
             At ModernSoft Innovations, we provide tailored digital solutions to

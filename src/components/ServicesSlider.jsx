@@ -26,9 +26,10 @@ const ServicesSlider = () => {
     centerPadding: "60px",
     focusOnSelect: true,
     infinite: true,
+    autoplay: true,
     speed: 1000,
     slidesToShow: 5,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1500,
     responsive: [
       {
         breakpoint: 1280,

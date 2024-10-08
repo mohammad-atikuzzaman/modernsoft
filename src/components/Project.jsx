@@ -3,19 +3,19 @@ import Link from 'next/link';
 import React from 'react';
 import "../styles/index.css"
 
-const Project = ({img, title}) => {
+const Project = ({img, title, url}) => {
   return (
-    <div className="mockup-window bg-base-300 parent hover:-translate-y-4 border transition-all duration-700">
-      <div className="p-4 relative ">
+    <div className="mockup-window bg-blue-300 parent hover:-translate-y-4 border transition-all duration-700">
+      <div className="p-4 relative bg-white">
         <Image
           src={img}
           alt="modernsoft"
-          height={500}
-          width={500}
+          height={700}
+          width={700}
           className="w-full"
         />
         <div className="absolute top-0 left-0 w-full bg-blue-500 transition-all bg-opacity-80 h-full child justify-center items-center ">
-          <Link href="dkjfakldsj.com" className="btn">
+          <Link href={url} className="btn">
             Demo
           </Link>
         </div>

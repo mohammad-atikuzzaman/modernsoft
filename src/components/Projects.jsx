@@ -11,11 +11,11 @@ const Projects = () => {
         </h2>
       </div>
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <Project img={"/icons/uiux.png"} title={"Project"} />
-        <Project img={"/icons/uiux.png"} title={"Project"} />
-        <Project img={"/icons/uiux.png"} title={"Project"} />
-        <Project img={"/icons/uiux.png"} title={"Project"} />
-        <Project img={"/icons/uiux.png"} title={"Project"} />
+        <Project img={"/image/presentation.png"} title={"Project"} url={"https://www.googel.com"}/>
+        <Project img={"/image/presentation.png"} title={"Project"} url={"https://www.googel.com"}/>
+        <Project img={"/image/presentation.png"} title={"Project"} url={"https://www.googel.com"}/>
+        <Project img={"/image/presentation.png"} title={"Project"} url={"https://www.googel.com"}/>
+        <Project img={"/image/presentation.png"} title={"Project"} url={"https://www.googel.com"}/>
       </div>
     </section>
   );
