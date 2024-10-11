@@ -14,7 +14,7 @@ const About = () => {
             className="w-[70%] mx-auto animatebounce"
           />
         </div>
-        <div className="md:w-[60%]">
+        <div className="px-4 md:w-[60%] md:px-0">
           <div className="space-y-4">
             <h2 className="text-4xl font-semibold text-blue-600 font-serif">
               Who We Are
