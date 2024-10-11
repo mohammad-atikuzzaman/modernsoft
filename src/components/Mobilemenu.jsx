@@ -17,11 +17,11 @@ const Mobilemenu = () => {
                 <hr className="my-3" />
                 <ul>
                     <li> <Link href="/" >Home</Link> </li>
-                    <li> <Link href="#about">About</Link> </li>
-                    <li> <Link href="#services">Services</Link> </li>
-                    <li> <Link href="#projects">Projects</Link> </li>
-                    <li> <Link href="#contacts">Contacts</Link> </li>
-                    <li> <Link href="#blog">Blog</Link> </li>
+                    <li> <Link href="/about">About</Link> </li>
+                    <li> <Link href="/services">Services</Link> </li>
+                    <li> <Link href="/projects">Projects</Link> </li>
+                    <li> <Link href="/contacts">Contacts</Link> </li>
+                    <li> <Link href="/blog">Blog</Link> </li>
                     <li> <Link href="https://www.facebook.com"> <FaFacebook className="mt-1 text-white text-lg mx-auto" /></Link> </li>
                     <li> <Link href="https://www.linkedin.com"> <FaLinkedin className="mt-1 text-white text-lg mx-auto" /></Link> </li>
                 </ul>

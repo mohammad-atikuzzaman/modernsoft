@@ -1,8 +1,8 @@
 import React from "react";
 function CommonLoadding() {
   return (
-    <div className="text-center mt-16">
-      <p className="text-blue-600">Loadding.....</p>
+    <div className="w-full min-h-screen flex items-center justify-center">
+      <span className="loading loading-infinity loading-lg"></span>
     </div>
   );
 }

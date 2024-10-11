@@ -13,19 +13,19 @@ const Desktopmenu = () => {
           <Link href="/" className={`${path==="/" && "font-semibold text-base text-blue-500"}`}>Home</Link>
         </li>
         <li>
-          <Link href="#about" >About</Link>
+          <Link href="/about" >About</Link>
         </li>
         <li>
-          <Link href="#services">Services</Link>
+          <Link href="/services">Services</Link>
         </li>
         <li>
-          <Link href="#projects">Projects</Link>
+          <Link href="/projects">Projects</Link>
         </li>
         <li>
-          <Link href="#contacts">Contacts</Link>
+          <Link href="/contacts">Contacts</Link>
         </li>
         <li>
-          <Link href="#blog">Blog</Link>
+          <Link href="/blog">Blog</Link>
         </li>
         <li>
           <Link href="https://www.facebook.com">
