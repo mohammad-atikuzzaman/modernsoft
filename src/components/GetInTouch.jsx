@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import Swal from 'sweetalert2';
 
 const GetInTouch = () => {
   const handleSubmit =(e)=>{
@@ -8,7 +9,13 @@ const GetInTouch = () => {
     const businessName = form.businessName.value
     const email = form.email.value
     const number = form.phone.value
-    alert(businessName, email, number)
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: "Your message sent successfull",
+      showConfirmButton: false,
+      timer: 1500,
+    });
   }
   return (
     <section className="mt-24  p-24 rounded-md max-w-screen-xl mx-auto" id="contacts">

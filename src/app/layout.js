@@ -26,6 +26,7 @@ const geistMono = localFont({
 export const metadata = {
   title: "Modern Soft",
   description: "create with next js",
+  icons:"/logo/modernsoft.png"
 };
 
 export default function RootLayout({ children }) {
