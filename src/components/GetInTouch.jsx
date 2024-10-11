@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetInTouch = () => {
   return (
-    <section className="mt-24 bg-gray-300 p-24 rounded-md" id="contacts">
+    <section className="mt-24  p-24 rounded-md max-w-screen-xl mx-auto" id="contacts">
       <h2 className="font-semibold text-blue-400 text-4xl text-center">Get In Touch</h2>
       <div className="mt-8">
         <form action="" className="space-y-4">

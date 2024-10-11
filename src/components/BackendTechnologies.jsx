@@ -1,7 +1,7 @@
 import { FaLaravel, FaNodeJs } from "react-icons/fa";
 import { AiOutlineDotNet } from "react-icons/ai";
 
-function Backend() {
+function BackendTechnologies() {
   return (
     <div className="mt-12 bg-base-200 p-4 rounded-md">
       <h2 className="text-center font-semibold text-4xl ">
@@ -33,4 +33,4 @@ function Backend() {
   );
 }
 
-export default Backend;
+export default BackendTechnologies;

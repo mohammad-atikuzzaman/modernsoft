@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Mynavbar = () => {
     return (
-        <nav className="flex justify-between items-center py-4 shadow-md relative px-2 rounded-xl">
+        <nav className="bg-white flex justify-between items-center py-4 shadow-md relative px-2 rounded-xl">
             <Link href="/" className="rounded-full overflow-hidden">
                 <Image src="/logo/modernsoft.png" alt="modernsoft" height={56} width={56} />
             </Link>

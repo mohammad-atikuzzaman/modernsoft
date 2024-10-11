@@ -32,51 +32,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header className="max-w-screen-xl mx-auto ">
+        <header className="max-w-screen-xl mx-auto sticky top-0 z-50">
           <Mynavbar />
         </header>
-        <div className="max-w-screen-xl mx-auto">
-          <Hero />
-          <Services />
-          <Projects/>
-          <About />
-          <Glance />
-          <WhyChooseUs />
-          <section className="mt-28">
-            <h2 className="text-center text-4xl font-semibold">
-               Technology<span className="text-blue-600"> We Used</span>
-            </h2>
-            <menu className="flex items-center justify-center mt-6 mx-auto">
-              <nav className="flex flex-wrap justify-center gap-4">
-                <Link className="btn bg-blue-500 text-white text-xl" href="/">
-                  Frontend
-                </Link>
-                <Link
-                  className="btn bg-blue-500 text-white text-xl"
-                  href="/backend">
-                  Backend
-                </Link>
-                <Link
-                  className="btn bg-blue-500 text-white text-xl"
-                  href="/database">
-                  DataBase
-                </Link>
-                <Link
-                  className="btn bg-blue-500 text-white text-xl"
-                  href="/cms">
-                  CMS
-                </Link>
-                <Link
-                  className="btn bg-blue-500 text-white text-xl"
-                  href="/devops">
-                  DevOps
-                </Link>
-              </nav>
-            </menu>
+        <main>
             {children}
-          </section>
-          <GetInTouch />
-        </div>
+        </main>
         <Footer />
       </body>
     </html>

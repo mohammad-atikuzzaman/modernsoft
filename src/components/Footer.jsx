@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-base-200">
+    <div className="bg-gray-300">
       <footer className=" footer max-w-screen-xl mx-auto text-base-content p-10">
         <aside className="flex flex-col items-center">
         <Image className="rounded-full" src="/logo/modernsoft.png" alt="modernsoft" height={50} width={50}/>

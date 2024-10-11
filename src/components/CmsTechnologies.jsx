@@ -1,6 +1,6 @@
-import {SiShopify, SiWix, SiWordpress } from "react-icons/si";
+import { SiShopify, SiWix, SiWordpress } from "react-icons/si";
 
-function Cms() {
+function CmsTechnologies() {
   return (
     <div className="mt-12 bg-base-200 p-4 rounded-md">
       <h2 className="text-center font-semibold text-4xl ">CMS Technologies</h2>
@@ -32,4 +32,4 @@ function Cms() {
   );
 }
 
-export default Cms;
+export default CmsTechnologies;

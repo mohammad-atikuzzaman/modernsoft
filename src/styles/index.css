@@ -20,7 +20,7 @@ button.slick-arrow {
 
 @keyframes float {
   0%, 100% {
-    transform: translateY(0); /* Start and end at the same position */
+    transform: translateY( 0); /* Start and end at the same position */
   }
   50% {
     transform: translateY(-30px); /* Move upwards at mid-point */
@@ -31,9 +31,10 @@ button.slick-arrow {
 .glitch {
   font-size: 3rem;
   font-weight: 600;
+  color: rgb(91, 107, 128);
   position: relative;
-  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-    0.025em 0.04em 0 #fffc00;
+  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #0059ff,
+    0.025em 0.04em 0 #00ff00;
   animation: glitch 725ms infinite;
 }
 
@@ -59,31 +60,31 @@ button.slick-arrow {
 
 @keyframes glitch {
   0% {
-    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-      0.025em 0.04em 0 #fffc00;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #0059ff,
+      0.025em 0.04em 0 #00ff00;
   }
   15% {
-    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-      0.025em 0.04em 0 #fffc00;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #0059ff,
+      0.025em 0.04em 0 #33ff00;
   }
   16% {
-    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-      -0.05em -0.05em 0 #fffc00;
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #0059ff,
+      -0.05em -0.05em 0 #00ff00;
   }
   49% {
-    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-      -0.05em -0.05em 0 #fffc00;
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #006eff,
+      -0.05em -0.05em 0 #00ff00;
   }
   50% {
-    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-      0 -0.04em 0 #fffc00;
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #0059ff,
+      0 -0.04em 0 #00ff00;
   }
   99% {
-    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-      0 -0.04em 0 #fffc00;
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #003cff,
+      0 -0.04em 0 #00ff00;
   }
   100% {
-    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
-      -0.04em -0.025em 0 #fffc00;
+    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #0059ff,
+      -0.04em -0.025em 0 #00ff00;
   }
 }
