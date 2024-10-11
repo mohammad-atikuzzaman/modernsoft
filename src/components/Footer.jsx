@@ -19,19 +19,19 @@ const Footer = () => {
           <Link href="/" className="link link-hover">
             Home
           </Link>
-          <Link href="/" className="link link-hover">
+          <Link href="/about" className="link link-hover">
             About
           </Link>
-          <Link href="/" className="link link-hover">
+          <Link href="/services" className="link link-hover">
             Services
           </Link>
-          <Link href="/" className="link link-hover">
+          <Link href="/contacts" className="link link-hover">
             Contact Us
           </Link>
-          <Link href="/" className="link link-hover">
-            Career
+          <Link href="/projects" className="link link-hover">
+            Projects
           </Link>
-          <Link href="/" className="link link-hover">
+          <Link href="/blog" className="link link-hover">
             Blog
           </Link>
         </nav>
