@@ -11,16 +11,16 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 
 function HomePage() {
   return (
-    <div>
-      <Hero />
+    <>
+      <Hero/>
       <Services />
       <Projects />
-      <Technologies/>
       <About />
       <Glance />
       <WhyChooseUs />
+      <Technologies/>
       <GetInTouch />
-    </div>
+    </>
   );
 }
 
