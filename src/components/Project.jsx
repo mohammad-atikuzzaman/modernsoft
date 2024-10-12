@@ -5,7 +5,7 @@ import "../styles/index.css";
 
 const Project = ({ img, title, url }) => {
   return (
-    <div className="mockup-window bg-white parent hover:-translate-y-4 border transition-all duration-700">
+    <div className="mockup-window rounded-md bg-white parent hover:-translate-y-4 border transition-all duration-700">
       <div className="p-4 relative bg-gray-200">
         <Image
           src={img}
