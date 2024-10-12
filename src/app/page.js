@@ -15,10 +15,10 @@ function HomePage() {
       <Hero />
       <Services />
       <Projects />
+      <Technologies/>
       <About />
       <Glance />
       <WhyChooseUs />
-      <Technologies/>
       <GetInTouch />
     </div>
   );

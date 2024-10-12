@@ -21,8 +21,8 @@ const page = () => {
     <section
       className="my-8 p-24 rounded-md max-w-screen-xl mx-auto"
       id="contacts">
-      <h2 className="font-semibold text-blue-400 text-4xl text-center">
-        Get In Touch
+      <h2 className="font-semibold text-4xl text-center">
+        Get In <span className="text-blue-600">Touch</span>
       </h2>
       <div className="mt-8">
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -50,7 +50,7 @@ const page = () => {
           <input
             type="submit"
             value="Submit"
-            className="w-full text-center btn btn-info text-white text-xl"
+            className="w-full text-center btn btn-info bg-blue-600 text-white text-xl"
           />
         </form>
       </div>

@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import "../styles/index.css"
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import "../styles/index.css";
 
-const Project = ({img, title, url}) => {
+const Project = ({ img, title, url }) => {
   return (
-    <div className="mockup-window bg-blue-300 parent hover:-translate-y-4 border transition-all duration-700">
-      <div className="p-4 relative bg-white">
+    <div className="mockup-window bg-white parent hover:-translate-y-4 border transition-all duration-700">
+      <div className="p-4 relative bg-gray-200">
         <Image
           src={img}
           alt="modernsoft"
@@ -20,7 +20,7 @@ const Project = ({img, title, url}) => {
           </Link>
         </div>
       </div>
-      <h2 className="text-xl font-semibold p-6 text-gray-600">{title}</h2>
+      <h2 className="text-xl font-semibold p-6 text-gray-800">{title}</h2>
     </div>
   );
 };

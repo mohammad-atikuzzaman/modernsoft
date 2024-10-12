@@ -3,9 +3,9 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="mt-24  bg-blue-100 px-4 py-12 rounded-md">
+    <section className="mt-24  bg-[#030938] px-4 py-12 rounded-md">
       <div className="max-w-screen-xl mx-auto">
-        <h2 className="text-4xl font-semibold text-center">
+        <h2 className="text-4xl font-semibold text-center text-white">
           Why <span className="text-blue-600 ">Choose Us?</span>
         </h2>
         <main className="flex flex-col-reverse md:flex-row mt-12">
@@ -19,10 +19,10 @@ const WhyChooseUs = () => {
                 className="w-6 h-6"
               />
               <div className="space-y-4">
-                <h2 className="font-medium text-2xl">
+                <h2 className="font-medium text-2xl text-white">
                   Tailored Digital Solutions
                 </h2>
-                <p className="text-lg text-[#00000096]">
+                <p className="text-lg text-gray-400 font-semibold">
                   We specialize in providing custom software development and
                   digital solutions that align perfectly with your business
                   goals, ensuring your unique needs are met.
@@ -37,11 +37,11 @@ const WhyChooseUs = () => {
                 height={200}
                 className="w-6 h-6"
               />
-              <div className="space-y-4">
+              <div className="space-y-4 text-white">
                 <h2 className="font-medium text-2xl">
                   Experienced Software Development Team
                 </h2>
-                <p className="text-lg text-[#00000096]">
+                <p className="text-lg text-gray-400">
                   Our team of expert software developers and designers are
                   proficient in the latest technologies and industry best
                   practices, ensuring the delivery of innovative, high-quality
@@ -57,11 +57,11 @@ const WhyChooseUs = () => {
                 height={200}
                 className="w-6 h-6"
               />
-              <div className="space-y-4">
+              <div className="space-y-4 text-white">
                 <h2 className="font-medium text-2xl">
                   Proven Track Record of Success
                 </h2>
-                <p className="text-lg text-[#00000096]">
+                <p className="text-lg text-gray-400">
                   With a strong portfolio of satisfied clients and a reputation
                   for delivering successful software projects, we help
                   businesses achieve measurable results and sustainable growth.
@@ -76,11 +76,11 @@ const WhyChooseUs = () => {
                 height={200}
                 className="w-6 h-6"
               />
-              <div className="space-y-4">
+              <div className="space-y-4 text-white">
                 <h2 className="font-medium text-2xl">
                   Affordable and Scalable Solutions
                 </h2>
-                <p className="text-lg text-[#00000096]">
+                <p className="text-lg text-gray-400">
                   We offer cost-effective and scalable solutions, making it easy
                   for businesses of any size to benefit from top-tier software
                   development without breaking the budget.
@@ -95,11 +95,11 @@ const WhyChooseUs = () => {
                 height={200}
                 className="w-6 h-6"
               />
-              <div className="space-y-4">
+              <div className="space-y-4 text-white">
                 <h2 className="font-medium text-2xl">
                   Comprehensive End-to-End Support
                 </h2>
-                <p className="text-lg text-[#00000096]">
+                <p className="text-lg text-gray-400">
                   We specialize in providing custom software development and
                   digital solutions that align perfectly with your business
                   goals, ensuring your unique needs are met.

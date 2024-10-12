@@ -3,11 +3,11 @@ import React from 'react';
 
 const page = () => {
   return (
-    <section className="my-8  py-12 px-4 rounded-md">
+    <section className="my-8 bg-[#030938] py-12 px-4 rounded-md">
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="text-center mb-12 space-y-6">
-          <h4 className="font-semibold text-gray-500">Our Projects</h4>
-          <h2 className="text-4xl font-semibold">
+          <h4 className="font-semibold text-gray-100">Our Projects</h4>
+          <h2 className="text-4xl font-semibold text-gray-100">
             <span className="text-blue-600">09+ Unique Homepages</span> for
             Multiple Purposes
           </h2>

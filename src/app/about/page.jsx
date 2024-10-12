@@ -1,10 +1,10 @@
-import About from '@/components/About';
-import Image from 'next/image';
-import React from 'react';
+import About from "@/components/About";
+import Image from "next/image";
+import React from "react";
 
 const page = () => {
   return (
-    <div className="my-8 bg-blue-100 py-12 rounded-md">
+    <div className="my-8 bg-[#030938] py-12 rounded-md">
       <section
         className="flex flex-col md:flex-row gap-4 justify-between max-w-screen-xl mx-auto"
         id="about">
@@ -19,10 +19,10 @@ const page = () => {
         </div>
         <div className="md:w-[60%]">
           <div className="space-y-4">
-            <h2 className="text-4xl font-semibold text-blue-600 font-serif">
+            <h2 className="text-4xl font-semibold text-blue-600">
               Who We Are
             </h2>
-            <p className="text-[#00000096] text-lg font-medium">
+            <p className="text-gray-400 text-lg font-medium">
               ModernSoft Innovations is a leading software development company
               offering innovative and custom software solutions for businesses
               and individuals. With a team of highly skilled professionals, we
@@ -32,10 +32,10 @@ const page = () => {
             </p>
           </div>
           <div className="mt-8 space-y-4">
-            <h2 className="text-4xl font-semibold text-blue-600 font-serif">
+            <h2 className="text-4xl font-semibold text-blue-600">
               What We Do
             </h2>
-            <p className="text-[#00000096] text-lg font-medium">
+            <p className="text-gray-400 text-lg font-medium">
               We specialize in Software Development, Software Testing, and Web &
               Mobile Application Development. Using the latest technologies and
               proven strategies, we create solutions that give our clients a

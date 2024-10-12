@@ -1,10 +1,12 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const About = () => {
   return (
-    <div className=" mt-24 bg-blue-100 py-12 rounded-md">
-      <section className="flex flex-col md:flex-row gap-4 justify-between max-w-screen-xl mx-auto" id="about">
+    <div className=" mt-24 bg-[#030938] py-12 rounded-md">
+      <section
+        className="flex flex-col md:flex-row gap-4 justify-between max-w-screen-xl mx-auto"
+        id="about">
         <div className="md:w-[40%]">
           <Image
             src="/icons/webfull.png"
@@ -16,10 +18,10 @@ const About = () => {
         </div>
         <div className="px-4 md:w-[60%] md:px-0">
           <div className="space-y-4">
-            <h2 className="text-4xl font-semibold text-blue-600 font-serif">
+            <h2 className="text-4xl font-semibold text-blue-600">
               Who We Are
             </h2>
-            <p className="text-[#00000096] text-lg font-medium">
+            <p className="text-gray-400 text-lg font-medium">
               ModernSoft Innovations is a leading software development company
               offering innovative and custom software solutions for businesses
               and individuals. With a team of highly skilled professionals, we
@@ -29,10 +31,10 @@ const About = () => {
             </p>
           </div>
           <div className="mt-8 space-y-4">
-            <h2 className="text-4xl font-semibold text-blue-600 font-serif">
+            <h2 className="text-4xl font-semibold text-blue-600">
               What We Do
             </h2>
-            <p className="text-[#00000096] text-lg font-medium">
+            <p className="text-gray-400 text-lg font-medium">
               We specialize in Software Development, Software Testing, and Web &
               Mobile Application Development. Using the latest technologies and
               proven strategies, we create solutions that give our clients a
