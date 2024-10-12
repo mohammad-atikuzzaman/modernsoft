@@ -19,7 +19,7 @@ const GetInTouch = () => {
   }
   return (
     <section
-      className="mt-24  p-24 rounded-md max-w-screen-xl mx-auto"
+      className="p-24 rounded-md max-w-screen-xl mx-auto"
       id="contacts">
       <h2 className="font-semibold text-4xl text-center">
         Get In <span className="text-blue-600">Touch</span>

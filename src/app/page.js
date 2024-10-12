@@ -11,7 +11,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 
 function HomePage() {
   return (
-    <>
+    <div className="space-y-24">
       <Hero/>
       <Services />
       <Projects />
@@ -20,7 +20,7 @@ function HomePage() {
       <WhyChooseUs />
       <Technologies/>
       <GetInTouch />
-    </>
+    </div>
   );
 }
 

@@ -14,7 +14,7 @@ const Technologies = () => {
   },[])
 
   return (
-    <section className="mt-28 max-w-screen-xl mx-auto">
+    <section className=" max-w-screen-xl mx-auto">
       <h2 className="text-center text-4xl font-semibold">
         Technology<span className="text-blue-600"> We Used</span>
       </h2>

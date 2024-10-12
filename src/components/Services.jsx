@@ -3,7 +3,7 @@ import Service from "./Service";
 
 const Services = () => {
   return (
-    <section className="mt-24 py-12 rounded-md" id="services">
+    <section className="py-12 rounded-md" id="services">
       <div className="max-w-screen-xl px-4 mx-auto">
         <div className="text-center">
           <h2 className="text-4xl font-semibold underline">

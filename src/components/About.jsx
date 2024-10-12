@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" mt-24 bg-[#030938] py-12 rounded-md">
+    <div className="bg-[#030938] py-12 rounded-md">
       <section
         className="flex flex-col md:flex-row gap-4 justify-between max-w-screen-xl mx-auto"
         id="about">

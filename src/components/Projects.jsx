@@ -3,7 +3,7 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <section className="mt-24 py-12 px-4 rounded-md">
+    <section className="py-12 px-4 rounded-md">
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="text-center mb-12 space-y-6">
           <h4 className="font-semibold text-gray-600">Our Projects</h4>
